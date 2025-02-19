@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Bästakompisar",
+    "cms": "Storyblok",
+    "code": "NextJS 14",
+    "content": "A fullservice agency company were I currently work as a developer.",
+    "website": "www.bastakompisar.se"
+  },
+  {
+    "title": "Xvisionkliniken",
+    "cms": "Storyblok",
+    "code": "NextJS 14",
+    "website": "www.xvisionkliniken.se"
+  },
+  {
+    "title": "Auth App",
+    "db": "Prisma postgress",
+    "code": "NextJS 15",
+    "website": "auth-wellness-eta.vercel.app/auth/login",
+    "content": "Currently working on a fitness app were you can manage your members and setup dietplans / workplans. I build this with postgress as database and NextJS as frontend"
+  },
+  {
+    "title": "Wellnessconnect",
+    "content": "Simple website with focus on healthcoaching & fitness.",
+    "cms": "Storyblok",
+    "code": "NextJS 14",
+    "website": "wellnessconnect.se/"
+  },
+  {
+    "title": "SteelKamet",
+    "content": "Concrete company that wanted a simple website. Built with NextJS with a design from customer.",
+    "cms": "Storyblok",
+    "code": "NextJS 14",
+    "website": "wellnessconnect.se/"
+  },
+  {
+    "title": "Sesprotection",
+    "cms": "WP",
+    "code": "NextJS 13",
+    "website": "www.sesprotection.se/"
+  },
+  {
+    "title": "MongoDB/SQL",
+    "code": "SQL",
+    "website": "github.com/Anlander/databashantering",
+    "content": "In my education I got the assignment to create a database, I choosed to create a hotel database with SQL & reviews with MongoDB"
+  },
+  {
+    "title": "FITRACKER",
+    "frame": "WPF / C#",
+    "content": "On my education I got an assignment to create a tracker with WPF & C#.",
+    "website": "github.com/Anlander/Objektorienterad-programmering-grund-Philip-Anlander-SYSM8"
+  }
+]

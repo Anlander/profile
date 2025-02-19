@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Front-end developer",
+    "year": "Feb 2023 | Current",
+    "content": "A fullservice agency company were I currently work as a lead developer.",
+    "company": "Bästakompisar"
+  },
+  {
+    "title": "Systemdeveloper.NET",
+    "year": "Aug 2024 | Current",
+    "content": "Currently enrolled in a education on Newton as systemdeveloper.NET",
+    "company": "Newton"
+  },
+  {
+    "title": "Front-end developer",
+    "year": "2021 | 2023",
+    "content": "I worked as a front-end developer of a big team in Helsingborg. My daily work rutin was fixing buggs, taking tasks, scrum meetings & much more.",
+    "company": "Flygstolen"
+  },
+  {
+    "title": "Front-end developer",
+    "year": "2019 | 2021",
+    "content": "First jobb as a front end developer was on Bästakompisar. After Flygstolen went bankruptcy cause of corona, I went back to Bästakompisar later in the timeline",
+    "company": "Bästakompisar"
+  },
+
+  {
+    "title": "Front-end developer",
+    "year": "2017 | 2019",
+    "content": "Where I got my first diploma and started my journy as a front-end developer.",
+    "company": "EC utbildning"
+  }
+]
