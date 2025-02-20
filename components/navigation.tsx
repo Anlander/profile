@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Code2, Github, Home, Linkedin } from "lucide-react";
-import { useParams, usePathname } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 interface Props {
   home?: boolean;
@@ -11,7 +11,9 @@ interface Props {
 export const Navigation = ({ home }: Props) => {
   const pathname = usePathname();
   return (
-    <nav className="flex lg:items-center flex-row lg:flex-row gap-5 lg:gap-5 lg:ml-2 font-mono text-xl">
+    <nav
+      className={` flex lg:items-center flex-row lg:flex-row gap-5 lg:gap-5 lg:ml-2 font-mono text-xl`}
+    >
       {home && (
         <Link href="/">
           <span className="font-bold hidden lg:flex gap-2 items-center font-mono flextext-[#80EF80]">
@@ -40,6 +42,10 @@ export const Navigation = ({ home }: Props) => {
         className={`${pathname === "/education" && "text-[#80EF80]"}`}
       >
         Education
+      </Link>
+      <span className="hidden lg:block">|</span>
+      <Link href="/cv" className={`${pathname === "/cv" && "text-[#80EF80]"}`}>
+        Curriculum vitae
       </Link>
       <span className="hidden lg:block">|</span>
       <div className="flex gap-2 lg:gap-5">

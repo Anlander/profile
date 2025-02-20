@@ -26,12 +26,12 @@
     "code": "NextJS 14",
     "website": "wellnessconnect.se/"
   },
+
   {
-    "title": "SteelKamet",
-    "content": "Concrete company that wanted a simple website. Built with NextJS with a design from customer.",
-    "cms": "Storyblok",
-    "code": "NextJS 14",
-    "website": "wellnessconnect.se/"
+    "title": "Adventure Game",
+    "frame": "C#",
+    "content": "Mini ConsoleApp game",
+    "website": "https://github.com/Anlander/Adventure-Game"
   },
   {
     "title": "Sesprotection",
@@ -46,9 +46,16 @@
     "content": "In my education I got the assignment to create a database, I choosed to create a hotel database with SQL & reviews with MongoDB"
   },
   {
-    "title": "FITRACKER",
+    "title": "FIT-TRACKER",
     "frame": "WPF / C#",
     "content": "On my education I got an assignment to create a tracker with WPF & C#.",
     "website": "github.com/Anlander/Objektorienterad-programmering-grund-Philip-Anlander-SYSM8"
+  },
+  {
+    "title": "SteelKamet",
+    "content": "Concrete company that wanted a simple website. Built with NextJS with a design from customer.",
+    "cms": "Storyblok",
+    "code": "NextJS 14",
+    "website": "steelkamet.se/"
   }
 ]

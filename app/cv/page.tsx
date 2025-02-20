@@ -6,7 +6,7 @@ const page = () => {
   return (
     <>
       <div className="fixed top-5 left-5 justify-center items-center">
-        <Navigation home={true} />
+        <Navigation home={false} />
       </div>
       <div className="w-[70%] ml-auto">
         <div>

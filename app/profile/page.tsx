@@ -4,7 +4,7 @@ import { Navigation } from "@/components/navigation";
 
 const page = () => {
   return (
-    <div className="px-5 my-24 2xl:mt-0 lg:mt-14 lg:px-14 flex items-center h-full 2xl:h-screen">
+    <div className="px-5 my-24   lg:px-14 flex items-center h-full 2xl:h-full">
       <div className="absolute top-5 left-5 justify-center items-center">
         <Navigation home={true} />
       </div>
