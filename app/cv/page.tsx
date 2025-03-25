@@ -8,7 +8,7 @@ const page = () => {
       <div className="fixed top-5 left-5 justify-center items-center">
         <Navigation home={false} />
       </div>
-      <div className="w-[70%] ml-auto">
+      <div className="mt-52 lg:mt-0 lg:w-[70%] ml-auto">
         <div>
           <Image src={cv} alt="CV" objectFit="" />
         </div>
