@@ -12,7 +12,7 @@ export const Navigation = ({ home }: Props) => {
   const pathname = usePathname();
   return (
     <nav
-      className={`flex lg:items-center ${!home ? "flex-col" : "flex-row"} lg:flex-row gap-5 lg:gap-5 lg:ml-2 font-mono text-xl`}
+      className={`flex lg:items-center ${!home ? "flex-col" : "flex-row"} lg:flex-row gap-5 z-50 lg:gap-5 lg:ml-2 font-mono text-xl`}
     >
       {home && (
         <Link href="/">
@@ -36,16 +36,13 @@ export const Navigation = ({ home }: Props) => {
       >
         <span>Work </span>
       </Link>
+      <span className="hidden lg:block">|</span>
       {home && <span>|</span>}
       <Link
         href="/education"
         className={`${pathname === "/education" && "text-[#80EF80]"}`}
       >
         Education
-      </Link>
-      <span className="hidden lg:block">|</span>
-      <Link href="/cv" className={`${pathname === "/cv" && "text-[#80EF80]"}`}>
-        CV
       </Link>
       <span className="hidden lg:block">|</span>
       {home && <br />}
