@@ -40,11 +40,9 @@ export const CardSection = ({
       <CardHeader>
         <CardTitle>
          <span className="hidden lg:block">
-          <CodeCard title={title} cms={cms} id={id} />
+          <CodeCard title={title} />
         </span>
           <h1 className="text-[24px]">{title}</h1>
-          
-
         </CardTitle>
         <CardDescription>
           <div className="flex-col flex">
