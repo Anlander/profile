@@ -12,7 +12,7 @@ export const Navigation = ({ home }: Props) => {
   const pathname = usePathname();
   return (
     <nav
-      className={`flex lg:items-center ${!home ? "flex-col" : "flex-row"} lg:flex-row gap-5 z-50 lg:gap-5 lg:ml-2 font-mono text-xl`}
+      className={`flex lg:items-center ${!home ? "flex-col" : "flex-row"} lg:flex-row gap-2 lg:gap-5 z-50 lg:gap-5 lg:ml-2 font-mono text-xl`}
     >
       {home && (
         <Link href="/">

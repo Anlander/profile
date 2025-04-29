@@ -8,7 +8,7 @@ const page = () => {
       <div className="absolute top-5 left-5 justify-center items-center">
         <Navigation home={true} />
       </div>
-      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4  lg:max-w-[90%] xl:max-w-[95%] 2xl:max-w-[100%] mx-auto">
+      <div className="grid grid-cols-1 gap-5 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-3 lg:max-w-[90%] xl:max-w-[95%] 2xl:max-w-[100%] mx-auto">
         {data.map((el: any, i: number) => (
           <div key={i}>
             <CardSection

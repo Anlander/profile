@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Code2Icon } from "lucide-react";
+import { CodeCard } from "./card-code";
 import Link from "next/link";
 
 interface Props {
@@ -34,11 +35,16 @@ export const CardSection = ({
   return (
     <Card
       key={id}
-      className="min-h-[340px] bg-transparent text-white flex flex-col justify relative"
+      className="min-h-[350px] lg:min-h-[500px] bg-[#2d2d2d1c] text-white flex flex-col justify relative"
     >
       <CardHeader>
         <CardTitle>
-          <h2 className="font-mono text-2xl">{title}</h2>
+         <span className="hidden lg:block">
+          <CodeCard title={title} cms={cms} id={id} />
+        </span>
+          <h1 className="text-[24px]">{title}</h1>
+          
+
         </CardTitle>
         <CardDescription>
           <div className="flex-col flex">
@@ -68,10 +74,10 @@ export const CardSection = ({
       <CardContent>
         <p>{content}</p>
       </CardContent>
-      <CardFooter>
+      <CardFooter className="mt-5">
         {website && (
           <Link
-            className="absolute bottom-5  flex gap-2 items-center"
+            className="absolute bottom-5  flex bg-[#2d2d2d] mt-4 px-5 py-2 gap-2 items-center"
             href={`https://${website}`}
             target="_blank"
           >
