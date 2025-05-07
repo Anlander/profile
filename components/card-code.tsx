@@ -5,9 +5,9 @@ interface Props {
   title?: string;
 }
 
-export const CodeCard = ({title}: Props) => {
+export const CodeCard = ({ title }: Props) => {
   const codeString = `
-    string projectName = ${title} 
+    string projectName = "${title}" 
       if(title.isStringOrNull()) {
         return null;
       }
