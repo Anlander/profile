@@ -6,9 +6,6 @@ export const HeroSection = () => {
       <div className="absolute w-full flex flex-col lg:flex-row-reverse gap-14 justify-center items-center h-full ">
         <div className="hidden lg:block absolute bottom-0 right-0">
         </div>
-        <video className="absolute h-full w-full object-cover" autoPlay loop muted>
-          <source src="/background/background.mp4" type="video/mp4" />
-        </video>
         <div className="h-full absolute top-0 w-full bg-black opacity-90 z-10" />
         <div className="flex flex-col z-20 gap-6 lg:gap-0">
           <span className="block font-bold text-2xl text-left">
@@ -29,7 +26,7 @@ export const HeroSection = () => {
             </pre>
           </div>
           </div>
-        </div>
-      </div>  
-)
-};
+        div>
+      div>  
+    
+  };
