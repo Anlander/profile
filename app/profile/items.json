@@ -34,6 +34,13 @@
     "content": "Currently working on a fitness app were you can manage your members and setup dietplans / workplans. I build this with postgress as database and NextJS as frontend"
   },
   {
+    "title": "Philip Anlander",
+    "content": "Old profile website that I created to showcase my work.",
+    "cms": "JSON",
+    "code": "ReactJS",
+    "website": "philipanlander.netlify.app"
+  },
+  {
     "title": "Wellnessconnect",
     "content": "Simple website with focus on healthcoaching & fitness.",
     "cms": "Storyblok",
