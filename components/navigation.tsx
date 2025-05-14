@@ -12,7 +12,7 @@ export const Navigation = ({ home }: Props) => {
   const pathname = usePathname();
   return (
     <nav
-      className={`flex lg:items-center ${!home ? "flex-col" : "flex-row"} lg:flex-row gap-2 lg:gap-5 z-50 lg:gap-5 lg:ml-2 font-mono text-xl`}
+      className={`flex lg:items-center ${!home ? "lg:flex-row" : "lg:flex-row"} lg:flex-row gap-5 absolute top-0 p-4  right-10 z-50 lg:gap-5 lg:ml-2 font-mono text-xl`}
     >
       {home && (
         <Link href="/">
@@ -22,13 +22,11 @@ export const Navigation = ({ home }: Props) => {
           </span>
         </Link>
       )}
-      {home && (
-        <Link href="/">
-          <span className="font-bold lg:hidden flex gap-2 items-center font-mono flextext-[#80EF80]">
-            <Home />
-          </span>
-        </Link>
-      )}
+      <Link href="/">
+        <span className="font-bold  flex gap-2 items-center font-mono flextext-[#80EF80]">
+          <Home />
+        </span>
+      </Link>
 
       <Link
         href="/profile"

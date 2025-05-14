@@ -1,5 +1,19 @@
 [
   {
+    "title": "Lanlander",
+    "cms": "JSON",
+    "code": "ReactJS",
+    "content": "Lanlander is a website that was created for a agency to showcase their work.",
+    "website": "lanlander.netlify.app/"
+  },
+  {
+    "title": "Aoptik",
+    "cms": "WPress",
+    "code": "MySQL",
+    "content": "Aoptik is a company that sells glasses and lenses.",
+    "website": "www.aoptik.se"
+  },
+  {
     "title": "Bästakompisar",
     "cms": "Storyblok",
     "code": "NextJS 14",
