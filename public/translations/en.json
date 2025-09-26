@@ -1,0 +1,120 @@
+{
+    "general": {
+        "name": "Philip Anlander",
+        "headline": "Hi, I'm a Developer",
+        "about": [
+            "Hey there! 👋",
+            "With five years of coding experience, I have developed a deep passion for programming that continually motivates me. I am known for my approachable humor, strong problem-solving skills, and ability to collaborate well with others. ",
+            "Driven by a constant desire to learn and improve, I thrive in environments that challenge and inspire me to grow."
+        ],
+        "socials": {
+            "email": "philip@anlander.se",
+            "linkedin": "https://www.linkedin.com/in/philip-anlander-68036a94/",
+            "github": "https://github.com/anlander"
+        }
+    },
+    "experiences": [
+        {
+            "title": "Frontend Developer",
+            "company": "Flygstolen",
+            "href": "",
+            "startDate": "4/2021",
+            "endDate": "4/2023",
+            "skills": ["Tailwind", "ReactJS", "Redux", "Github", "SCSS", "Figma"]
+        },
+        {
+            "title": "Lead Developer",
+            "company": "Bästa Kompisar",
+            "href": "https://bastakompisar.se/",
+            "startDate": "4/2019",
+            "endDate": "10/2025",
+            "logo": "/logos/vercel-white.png",
+            "skills": ["Tailwind", "ReactJS", "NextJS", "Github", "SCSS", "Figma", "NodeJS", "Prisma"]
+        }
+    ],
+    "education": [
+
+        {
+            "subject": "System developer .NET",
+            "degree": "YH",
+            "university": "Newton", 
+            "href": "",
+            "startDate": "2024", 
+            "endDate": "2026", 
+            "description": "Short description of your degree."
+        },
+        {
+            "subject": "Frontend Development",
+            "degree": "YH",
+            "university": "EC Utbildning", 
+            "href": "",
+            "startDate": "2017", 
+            "endDate": "2019", 
+            "description": "Short description of your degree."
+        }
+    ],
+        "projects": [
+        {
+            "name": "Aoptik",
+            "framework": "WordPress, SCSS",
+            "description": "",
+            "href": "https://aoptik.se/",
+            "stars": "0"
+        },
+       {
+            "name": "Bästa Kompisar",
+            "framework": "NextJS, Tailwind, Storyblok",
+            "description": "Short description of your project.",
+            "href": "https://bastakompisar.se/",
+            "stars": "2,712"
+       },
+       {
+        "name": "Xvisionkliniken",
+        "framework": "NextJS, Tailwind, Storyblok",
+        "href": "https://www.xvisionkliniken.se/",
+        "stars": "1,999"
+        },
+       {
+        "name": "Defensify",
+        "framework": "NextJS, Tailwind, Storyblok",
+        "href": "https://defensify.se/",
+        "stars": "1,999"
+        },
+       {
+        "name": "Fit-tracker",
+        "framework": "WPF, C#",
+        "href": "https://github.com/Anlander/Objektorienterad-programmering-grund-Philip-Anlander-SYSM8",
+        "stars": ""
+        },
+       {
+        "name": "Wellnessconnect",
+        "framework": "NextJS, Tailwind, Storyblok",
+        "href": "https://wellnessconnect.se/",
+        "stars": ""
+        },
+       {
+        "name": "Adventure Game",
+        "framework": "C#",
+        "href": "https://github.com/Anlander/Adventure-Game",
+        "stars": ""
+        },
+       {
+        "name": "Sesprotection",
+        "framework": "NextJS, WordPress",
+        "href": "https://www.sesprotection.se/",
+        "stars": ""
+        },
+       {
+        "name": "Hyresbostäder",
+        "framework": "NextJS, Tailwind, Storyblok",
+        "href": "https://hyresbostader.vercel.app/",
+        "stars": ""
+        },
+       {
+        "name": "Classicbowl",
+        "framework": "NextJS, Tailwind, Storyblok",
+        "href": "http://classicbowlhorby.se/",
+        "stars": ""
+        }
+    ]
+}
