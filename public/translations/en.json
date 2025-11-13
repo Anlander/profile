@@ -15,6 +15,14 @@
     },
     "experiences": [
         {
+            "title": ".NET Developer | Intern",
+            "company": "WizardWorks",
+            "href": "",
+            "startDate": "9/2025",
+            "endDate": "12/2025",
+            "skills": ["Entity framework", ".NET", "MediatR"]
+        },
+        {
             "title": "Frontend Developer",
             "company": "Flygstolen",
             "href": "",
