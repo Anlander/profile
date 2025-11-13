@@ -34,8 +34,8 @@
             "title": "Frontend Developer",
             "company": "Bästa Kompisar",
             "href": "https://bastakompisar.se/",
-            "startDate": "4/2019",
-            "endDate": "10/2025",
+            "startDate": "4/2019 - 4/2021",
+            "endDate": "2/2023 - 10/2025",
             "logo": "/logos/vercel-white.png",
             "skills": ["Tailwind", "ReactJS", "NextJS", "Github", "SCSS", "Figma", "NodeJS", "Prisma"]
         }
